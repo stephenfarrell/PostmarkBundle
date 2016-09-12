@@ -11,7 +11,7 @@ Add PostmarkBundle in your composer.json:
 ```js
 {
     "require": {
-        "mlpz/postmark-bundle": "*"
+        "stephenfarrell/postmark-bundle": "*"
     }
 }
 ```
