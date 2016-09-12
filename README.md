@@ -1,5 +1,8 @@
 # PostmarkBundle
-Symfony2 bundle for [Postmark](http://postmarkapp.com) API [![Build Status](https://secure.travis-ci.org/miguel250/PostmarkBundle.png?branch=master)](http://travis-ci.org/miguel250/PostmarkBundle)
+Symfony3 bundle for [Postmark](http://postmarkapp.com) API [![Build Status](https://secure.travis-ci.org/miguel250/PostmarkBundle.png?branch=master)](http://travis-ci.org/miguel250/PostmarkBundle)
+
+**This is a ridiculously minor update of Miguel Perez's no-longer maintained code from https://github.com/miguel250/PostmarkBundle to allow for Symfony 3 compatibility. All credit/kudos/thanks for the work should obviously go to him**
+
 ## Setup
 
 **Using Composer**

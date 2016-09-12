@@ -1,19 +1,22 @@
 {
-    "name": "mlpz/postmark-bundle",
+    "name": "stephenfarrell/postmark-bundle",
     "type": "symfony-bundle",
-    "description": "postmark bundle",
+    "description": "A minor update of Miguel Perez's no-longer maintained code from https://github.com/miguel250/PostmarkBundle to allow for Symfony 3 compatibility. All credit/kudos/thanks for the work should obviously go to him",
     "keywords": ["postmark","api", "mailer"],
-    "homepage": "http://www.mlpz.mp",
+    "homepage": "https://github.com/stephenfarrell",
     "license": "MIT",
     "authors": [
         {
             "name": "Miguel Perez",
             "email": "miguel@miguelpz.com"
+        },
+        {
+            "name": "Stephen Farrell"
         }
     ],
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "2.*",
+        "symfony/framework-bundle": ">=2.*",
         "kriswallsmith/buzz":">=0.9"
     },
     "autoload": {
