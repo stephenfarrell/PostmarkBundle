@@ -8,21 +8,17 @@ Symfony3 bundle for [Postmark](http://postmarkapp.com) API [![Build Status](http
 **Using Composer**
 Add PostmarkBundle in your composer.json:
 
-```js
-{
-    "require": {
-        "stephenfarrell/postmark-bundle": "*"
-    }
-}
+``` bash
+$ php composer.phar require stephenfarrell/postmark-bundle
 ```
 
 ``` bash
-$ php composer.phar update mlpz/postmark-bundle
+$ php composer.phar update stephenfarrell/postmark-bundle
 ```
 
 **Using Submodule**
 
-    git submodule add https://github.com/miguel250/PostmarkBundle.git vendor/bundles/MZ/PostmarkBundle
+    git submodule add https://github.com/stephenfarrell/PostmarkBundle.git vendor/bundles/MZ/PostmarkBundle
     git submodule add https://github.com/kriswallsmith/Buzz.git  vendor/buzz
 
 **Add the MZ namespace to autoloader**
